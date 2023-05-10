@@ -16,7 +16,7 @@ Blazor uses C#, so you will need to [install the .NET SDK](https://dotnet.micros
 There are two types of Blazor projects: Blazor Server applications, which run on the server, and Blazor WASM (WebAssembly), which run in the browser. Since Blazor Server is not static, this guide will use Blazor WASM. Create a new Blazor WASM application by running the following command in your terminal:
 
 ```sh
-$ dotnet new blazorwasm my-blazor-project
+$ dotnet new blazorwasm -n my-blazor-project
 ```
 
 ## Creating the build script
